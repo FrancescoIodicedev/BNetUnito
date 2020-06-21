@@ -1,0 +1,26 @@
+	Structure of generated graphs:[-structure singly] or [-structure multi]
+	Number of nodes:[-nNodes value]
+	Max degree for each node: [-maxDegree value]
+	Maximum number of incoming arcs for each node: [-maxInDegree value]
+	Maximum number of outgoing arcs for each node: [-maxOutDegree value]
+	Maximum total number of arcs: [-maxArcs value]
+	Maximum induced-width (tree-width) allowed: [-maxIW value]
+	Maximum number of value (state) for each node: [-maxVal value]
+	This option fix the number of values to maxVal: [-fixed_maxVal]
+	Number of generated graphs: [-nBNs value]
+	Number of transitions between samples (default value is 6*nNodes*nNodes): [-nTransitions value]
+	Saved file format (xml is the default format): [-format xml] or [-format java]
+	To save a Credal Network (save just the linear "base" of the local credal sets): [-format cif]
+	Number of points of the generated local credal set: [-nPoints value]
+	To save 2 binaries Bayesian networks (Low and High) equivalent to a binary credal network: [-format xml_interval]
+	To generate from a fixed network structure name.xml: [-generateFrom name]
+	Name of saved file: [-fName name]
+
+java -classpath /Users/francescoiodice/Downloads/Magistrale/Intelligenza\ Artificiale/PROB_BNET/UtilisNet/BNGenerator-025/Classes/colt.jar:/Users/francescoiodice/Downloads/Magistrale/Intelligenza\ Artificiale/PROB_BNET/UtilisNet/BNGenerator-025/Classes/embayes.jar:/Users/francescoiodice/Downloads/Magistrale/Intelligenza\ Artificiale/PROB_BNET/UtilisNet/BNGenerator-025/Classes/ BNGenerator -nNodes 500 -maxDegree 20 -maxArcs 4000 -nBNs 1 -format xml -maxVal 2 -structure multi -fName maxSinglyNet
+
+
+
+
+
+
+//singly --> -nNodes 80 -maxDegree 8 -maxArcs 100

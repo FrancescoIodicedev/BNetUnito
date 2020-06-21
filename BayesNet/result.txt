@@ -1,0 +1,1521 @@
+/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=53052:/Applications/IntelliJ IDEA.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/francescoiodice/Downloads/Magistrale/Intelligenza Artificiale/Progetto/IA2/IALab1920/BayesNet/out/production/BayesNet:/Users/francescoiodice/Downloads/Magistrale/Intelligenza Artificiale/Progetto/IA2/IALab1920/BayesNet/aima-core.jar" bayes.TestPerformanceCVE
+
+------Testing performance of Optimaized VE on the net ---------
+
+Var in topologic order : [X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, X11, X12, X13, X14, X15, X16, X17, X18, X19, X20, X21, X22, X23, X24, X25, X26, X27, X28, X29, X30, X31, X32, X33, X34, X35, X36, X37, X38, X39, X40, X41, X42, X43, X44, X45, X46, X47, X48, X49, X50]
+Query is : P(X1|X50 = true)
+
+Test N: 1
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 18063 microseconds
+CD : <0.5, 0.5>
+ With : class CustomEliminationAsk
+
+
+Test N: 2
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 5406 microseconds
+CD : <0.5, 0.5>
+ With : class CustomEliminationAsk
+
+
+Test N: 3
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 4819 microseconds
+CD : <0.5, 0.5>
+ With : class CustomEliminationAsk
+
+
+Test N: 4
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 3565 microseconds
+CD : <0.5, 0.5>
+ With : class CustomEliminationAsk
+
+
+Test N: 5
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 6245 microseconds
+CD : <0.5, 0.5>
+ With : class CustomEliminationAsk
+
+
+Test N: 6
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 4940 microseconds
+CD : <0.5, 0.5>
+ With : class CustomEliminationAsk
+
+
+Test N: 7
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 4913 microseconds
+CD : <0.5, 0.5>
+ With : class CustomEliminationAsk
+
+
+Test N: 8
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 4048 microseconds
+CD : <0.5, 0.5>
+ With : class CustomEliminationAsk
+
+
+Test N: 9
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 3091 microseconds
+CD : <0.5, 0.5>
+ With : class CustomEliminationAsk
+
+
+Test N: 10
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 1861 microseconds
+CD : <0.5, 0.5>
+ With : class CustomEliminationAsk
+
+
+Test N: 11
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : Topologic Inverse
+Execution Time : 1803 microseconds
+CD : <0.5, 0.5>
+ With : class CustomEliminationAsk
+
+
+Test N: 12
+Variable Elimination standard
+Execution Time : 1625 microseconds
+CD : <0.5, 0.5>
+ With : class aima.core.probability.bayes.exact.EliminationAsk
+
+
+--------------------------------------------------
+
+Query is : P(X1,X30|X40 = false,X50 = true)
+
+Test N: 1
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 3192 microseconds
+CD : <0.25, 0.25, 0.25, 0.25>
+ With : class CustomEliminationAsk
+
+
+Test N: 2
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 2553 microseconds
+CD : <0.25, 0.25, 0.25, 0.25>
+ With : class CustomEliminationAsk
+
+
+Test N: 3
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 4356 microseconds
+CD : <0.25, 0.25, 0.25, 0.25>
+ With : class CustomEliminationAsk
+
+
+Test N: 4
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 4419 microseconds
+CD : <0.25, 0.25, 0.25, 0.25>
+ With : class CustomEliminationAsk
+
+
+Test N: 5
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 1805 microseconds
+CD : <0.25, 0.25, 0.25, 0.25>
+ With : class CustomEliminationAsk
+
+
+Test N: 6
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 2490 microseconds
+CD : <0.25, 0.25, 0.25, 0.25>
+ With : class CustomEliminationAsk
+
+
+Test N: 7
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 2437 microseconds
+CD : <0.25, 0.25, 0.25, 0.25>
+ With : class CustomEliminationAsk
+
+
+Test N: 8
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 2399 microseconds
+CD : <0.25, 0.25, 0.25, 0.25>
+ With : class CustomEliminationAsk
+
+
+Test N: 9
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 1554 microseconds
+CD : <0.25, 0.25, 0.25, 0.25>
+ With : class CustomEliminationAsk
+
+
+Test N: 10
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 1862 microseconds
+CD : <0.25, 0.25, 0.25, 0.25>
+ With : class CustomEliminationAsk
+
+
+Test N: 11
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : Topologic Inverse
+Execution Time : 1967 microseconds
+CD : <0.25, 0.25, 0.25, 0.25>
+ With : class CustomEliminationAsk
+
+
+Test N: 12
+Variable Elimination standard
+Execution Time : 2061 microseconds
+CD : <0.25, 0.25, 0.25, 0.25>
+ With : class aima.core.probability.bayes.exact.EliminationAsk
+
+
+--------------------------------------------------
+
+Query is : P(X1,X25,X50|X20 = true,X30 = false,X40 = true)
+
+Test N: 1
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 2492 microseconds
+CD : <0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125>
+ With : class CustomEliminationAsk
+
+
+Test N: 2
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 2505 microseconds
+CD : <0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125>
+ With : class CustomEliminationAsk
+
+
+Test N: 3
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 2477 microseconds
+CD : <0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125>
+ With : class CustomEliminationAsk
+
+
+Test N: 4
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 2163 microseconds
+CD : <0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125>
+ With : class CustomEliminationAsk
+
+
+Test N: 5
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 2516 microseconds
+CD : <0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125>
+ With : class CustomEliminationAsk
+
+
+Test N: 6
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 2920 microseconds
+CD : <0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125>
+ With : class CustomEliminationAsk
+
+
+Test N: 7
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 2573 microseconds
+CD : <0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125>
+ With : class CustomEliminationAsk
+
+
+Test N: 8
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 2933 microseconds
+CD : <0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125>
+ With : class CustomEliminationAsk
+
+
+Test N: 9
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 1418 microseconds
+CD : <0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125>
+ With : class CustomEliminationAsk
+
+
+Test N: 10
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 1612 microseconds
+CD : <0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125>
+ With : class CustomEliminationAsk
+
+
+Test N: 11
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : Topologic Inverse
+Execution Time : 1746 microseconds
+CD : <0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125>
+ With : class CustomEliminationAsk
+
+
+Test N: 12
+Variable Elimination standard
+Execution Time : 1770 microseconds
+CD : <0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125>
+ With : class aima.core.probability.bayes.exact.EliminationAsk
+
+
+--------------------------------------------------
+
+
+---------------------------------------
+
+
+------Testing performance of Optimaized VE on follow net ---------
+
+Var in topologic order : [Node1, Node8, Node10, Node0, Node6, Node4, Node5, Node9, Node11, Node2, Node7, Node3]
+Query is : P(Node3|Node1 = State1)
+
+Test N: 1
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 9312 microseconds
+CD : <0.46552575148885694, 0.5344742485111431>
+ With : class CustomEliminationAsk
+
+
+Test N: 2
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 5147 microseconds
+CD : <0.46552575148885694, 0.5344742485111431>
+ With : class CustomEliminationAsk
+
+
+Test N: 3
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 4730 microseconds
+CD : <0.46552575148885694, 0.5344742485111431>
+ With : class CustomEliminationAsk
+
+
+Test N: 4
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 4904 microseconds
+CD : <0.46552575148885694, 0.5344742485111431>
+ With : class CustomEliminationAsk
+
+
+Test N: 5
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 8483 microseconds
+CD : <0.46552575148885694, 0.5344742485111431>
+ With : class CustomEliminationAsk
+
+
+Test N: 6
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 12049 microseconds
+CD : <0.46552575148885694, 0.5344742485111431>
+ With : class CustomEliminationAsk
+
+
+Test N: 7
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 7734 microseconds
+CD : <0.46552575148885694, 0.5344742485111431>
+ With : class CustomEliminationAsk
+
+
+Test N: 8
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 7900 microseconds
+CD : <0.46552575148885694, 0.5344742485111431>
+ With : class CustomEliminationAsk
+
+
+Test N: 9
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 5316 microseconds
+CD : <0.46552575148885694, 0.5344742485111431>
+ With : class CustomEliminationAsk
+
+
+Test N: 10
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 4311 microseconds
+CD : <0.46552575148885694, 0.5344742485111431>
+ With : class CustomEliminationAsk
+
+
+Test N: 11
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : Topologic Inverse
+Execution Time : 3632 microseconds
+CD : <0.46552575148885694, 0.5344742485111431>
+ With : class CustomEliminationAsk
+
+
+Test N: 12
+Variable Elimination standard
+Execution Time : 3848 microseconds
+CD : <0.46552575148885694, 0.5344742485111431>
+ With : class aima.core.probability.bayes.exact.EliminationAsk
+
+
+--------------------------------------------------
+
+Query is : P(Node3,Node8|Node1 = State1,Node10 = State0)
+
+Test N: 1
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 3303 microseconds
+CD : <0.22359971998026135, 0.3329719401620031, 0.2563002800197386, 0.18712805983799694>
+ With : class CustomEliminationAsk
+
+
+Test N: 2
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 2749 microseconds
+CD : <0.22359971998026135, 0.3329719401620031, 0.2563002800197386, 0.18712805983799694>
+ With : class CustomEliminationAsk
+
+
+Test N: 3
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 2764 microseconds
+CD : <0.22359971998026135, 0.3329719401620031, 0.2563002800197386, 0.18712805983799694>
+ With : class CustomEliminationAsk
+
+
+Test N: 4
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 2998 microseconds
+CD : <0.22359971998026135, 0.3329719401620031, 0.2563002800197386, 0.18712805983799694>
+ With : class CustomEliminationAsk
+
+
+Test N: 5
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 2015 microseconds
+CD : <0.22359971998026135, 0.3329719401620031, 0.2563002800197386, 0.1871280598379969>
+ With : class CustomEliminationAsk
+
+
+Test N: 6
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 2119 microseconds
+CD : <0.22359971998026135, 0.3329719401620031, 0.2563002800197386, 0.1871280598379969>
+ With : class CustomEliminationAsk
+
+
+Test N: 7
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 1853 microseconds
+CD : <0.22359971998026135, 0.3329719401620031, 0.2563002800197386, 0.1871280598379969>
+ With : class CustomEliminationAsk
+
+
+Test N: 8
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 1922 microseconds
+CD : <0.22359971998026135, 0.3329719401620031, 0.2563002800197386, 0.1871280598379969>
+ With : class CustomEliminationAsk
+
+
+Test N: 9
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 2787 microseconds
+CD : <0.22359971998026135, 0.3329719401620031, 0.25630028001973865, 0.18712805983799688>
+ With : class CustomEliminationAsk
+
+
+Test N: 10
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 2813 microseconds
+CD : <0.22359971998026135, 0.3329719401620031, 0.25630028001973865, 0.18712805983799688>
+ With : class CustomEliminationAsk
+
+
+Test N: 11
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : Topologic Inverse
+Execution Time : 2719 microseconds
+CD : <0.22359971998026135, 0.3329719401620031, 0.25630028001973865, 0.18712805983799688>
+ With : class CustomEliminationAsk
+
+
+Test N: 12
+Variable Elimination standard
+Execution Time : 3067 microseconds
+CD : <0.22359971998026135, 0.3329719401620031, 0.25630028001973865, 0.18712805983799688>
+ With : class aima.core.probability.bayes.exact.EliminationAsk
+
+
+--------------------------------------------------
+
+
+------Testing performance of Optimaized VE on the net ---------
+
+Var in topologic order : [HYPOVOLEMIA, LVFAILURE, ERRLOWOUTPUT, ERRCAUTER, INSUFFANESTH, ANAPHYLAXIS, KINKEDTUBE, FIO2, PULMEMBOLUS, INTUBATION, DISCONNECT, MINVOLSET, HISTORY, LVEDVOLUME, STROKEVOLUME, TPR, PAP, SHUNT, VENTMACH, HR, CVP, PCWP, VENTTUBE, HRBP, HREKG, HRSAT, CO, VENTLUNG, PRESS, BP, MINVOL, VENTALV, PVSAT, ARTCO2, SAO2, CATECHOL]
+Query is : P(PVSAT|VENTMACH = true)
+
+Test N: 1
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 351 microseconds
+CD : <0.9093693769292801, 0.09063062307071999>
+ With : class CustomEliminationAsk
+
+
+Test N: 2
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 204 microseconds
+CD : <0.9093693769292801, 0.09063062307071999>
+ With : class CustomEliminationAsk
+
+
+Test N: 3
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 214 microseconds
+CD : <0.9093693769292801, 0.09063062307071999>
+ With : class CustomEliminationAsk
+
+
+Test N: 4
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 228 microseconds
+CD : <0.9093693769292801, 0.09063062307071999>
+ With : class CustomEliminationAsk
+
+
+Test N: 5
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 119 microseconds
+CD : <0.90936937692928, 0.09063062307071998>
+ With : class CustomEliminationAsk
+
+
+Test N: 6
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 128 microseconds
+CD : <0.90936937692928, 0.09063062307071998>
+ With : class CustomEliminationAsk
+
+
+Test N: 7
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 112 microseconds
+CD : <0.90936937692928, 0.09063062307071998>
+ With : class CustomEliminationAsk
+
+
+Test N: 8
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 129 microseconds
+CD : <0.90936937692928, 0.09063062307071998>
+ With : class CustomEliminationAsk
+
+
+Test N: 9
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 210 microseconds
+CD : <0.9093693769292799, 0.09063062307072>
+ With : class CustomEliminationAsk
+
+
+Test N: 10
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 258 microseconds
+CD : <0.9093693769292799, 0.09063062307072>
+ With : class CustomEliminationAsk
+
+
+Test N: 11
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : Topologic Inverse
+Execution Time : 212 microseconds
+CD : <0.9093693769292799, 0.09063062307072>
+ With : class CustomEliminationAsk
+
+
+Test N: 12
+Variable Elimination standard
+Execution Time : 217 microseconds
+CD : <0.9093693769292799, 0.09063062307072>
+ With : class aima.core.probability.bayes.exact.EliminationAsk
+
+
+--------------------------------------------------
+
+Query is : P(CATECHOL,PAP|VENTLUNG = true,HREKG = true)
+
+Test N: 1
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 1343 microseconds
+CD : <0.01717501295168774, 0.31682229914182225, 0.03432498704831226, 0.6316777008581778>
+ With : class CustomEliminationAsk
+
+
+Test N: 2
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 822 microseconds
+CD : <0.01717501295168774, 0.31682229914182225, 0.03432498704831226, 0.6316777008581778>
+ With : class CustomEliminationAsk
+
+
+Test N: 3
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 758 microseconds
+CD : <0.01717501295168774, 0.31682229914182225, 0.03432498704831226, 0.6316777008581778>
+ With : class CustomEliminationAsk
+
+
+Test N: 4
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 700 microseconds
+CD : <0.01717501295168774, 0.31682229914182225, 0.03432498704831226, 0.6316777008581778>
+ With : class CustomEliminationAsk
+
+
+Test N: 5
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 505 microseconds
+CD : <0.017175012951687742, 0.3168222991418222, 0.034324987048312265, 0.6316777008581778>
+ With : class CustomEliminationAsk
+
+
+Test N: 6
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 510 microseconds
+CD : <0.017175012951687742, 0.3168222991418222, 0.034324987048312265, 0.6316777008581778>
+ With : class CustomEliminationAsk
+
+
+Test N: 7
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 484 microseconds
+CD : <0.017175012951687742, 0.3168222991418222, 0.034324987048312265, 0.6316777008581778>
+ With : class CustomEliminationAsk
+
+
+Test N: 8
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 571 microseconds
+CD : <0.017175012951687742, 0.3168222991418222, 0.034324987048312265, 0.6316777008581778>
+ With : class CustomEliminationAsk
+
+
+Test N: 9
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 1534 microseconds
+CD : <0.01717501295168775, 0.3168222991418223, 0.03432498704831226, 0.6316777008581776>
+ With : class CustomEliminationAsk
+
+
+Test N: 10
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 1482 microseconds
+CD : <0.01717501295168775, 0.3168222991418223, 0.03432498704831226, 0.6316777008581776>
+ With : class CustomEliminationAsk
+
+
+Test N: 11
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : Topologic Inverse
+Execution Time : 1523 microseconds
+CD : <0.01717501295168775, 0.3168222991418223, 0.03432498704831226, 0.6316777008581776>
+ With : class CustomEliminationAsk
+
+
+Test N: 12
+Variable Elimination standard
+Execution Time : 1706 microseconds
+CD : <0.01717501295168775, 0.3168222991418223, 0.03432498704831226, 0.6316777008581776>
+ With : class aima.core.probability.bayes.exact.EliminationAsk
+
+
+--------------------------------------------------
+
+Query is : P(CATECHOL,PAP,CO|VENTLUNG = true,HREKG = true)
+
+Test N: 1
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 891 microseconds
+CD : <0.009409846095970679, 0.007765166855717063, 0.17358060125382158, 0.14324169788800067, 0.01880597390402932, 0.01551901314428294, 0.34608357874617846, 0.28559412211199936>
+ With : class CustomEliminationAsk
+
+
+Test N: 2
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 772 microseconds
+CD : <0.009409846095970679, 0.007765166855717063, 0.17358060125382158, 0.14324169788800067, 0.01880597390402932, 0.01551901314428294, 0.34608357874617846, 0.28559412211199936>
+ With : class CustomEliminationAsk
+
+
+Test N: 3
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 775 microseconds
+CD : <0.009409846095970679, 0.007765166855717063, 0.17358060125382158, 0.14324169788800067, 0.01880597390402932, 0.01551901314428294, 0.34608357874617846, 0.28559412211199936>
+ With : class CustomEliminationAsk
+
+
+Test N: 4
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 725 microseconds
+CD : <0.009409846095970679, 0.007765166855717063, 0.17358060125382158, 0.14324169788800067, 0.01880597390402932, 0.01551901314428294, 0.34608357874617846, 0.28559412211199936>
+ With : class CustomEliminationAsk
+
+
+Test N: 5
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 649 microseconds
+CD : <0.00940984609597068, 0.007765166855717064, 0.17358060125382155, 0.14324169788800067, 0.01880597390402932, 0.015519013144282943, 0.34608357874617846, 0.28559412211199936>
+ With : class CustomEliminationAsk
+
+
+Test N: 6
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 732 microseconds
+CD : <0.00940984609597068, 0.007765166855717064, 0.17358060125382155, 0.14324169788800067, 0.01880597390402932, 0.015519013144282943, 0.34608357874617846, 0.28559412211199936>
+ With : class CustomEliminationAsk
+
+
+Test N: 7
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 528 microseconds
+CD : <0.00940984609597068, 0.007765166855717064, 0.17358060125382155, 0.14324169788800067, 0.01880597390402932, 0.015519013144282943, 0.34608357874617846, 0.28559412211199936>
+ With : class CustomEliminationAsk
+
+
+Test N: 8
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 599 microseconds
+CD : <0.00940984609597068, 0.007765166855717064, 0.17358060125382155, 0.14324169788800067, 0.01880597390402932, 0.015519013144282943, 0.34608357874617846, 0.28559412211199936>
+ With : class CustomEliminationAsk
+
+
+Test N: 9
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 1621 microseconds
+CD : <0.009409846095970684, 0.007765166855717065, 0.1735806012538216, 0.1432416978880007, 0.018805973904029324, 0.01551901314428294, 0.3460835787461784, 0.28559412211199925>
+ With : class CustomEliminationAsk
+
+
+Test N: 10
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 1933 microseconds
+CD : <0.009409846095970684, 0.007765166855717065, 0.1735806012538216, 0.1432416978880007, 0.018805973904029324, 0.01551901314428294, 0.3460835787461784, 0.28559412211199925>
+ With : class CustomEliminationAsk
+
+
+Test N: 11
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : Topologic Inverse
+Execution Time : 1835 microseconds
+CD : <0.009409846095970684, 0.007765166855717065, 0.1735806012538216, 0.1432416978880007, 0.018805973904029324, 0.01551901314428294, 0.3460835787461784, 0.28559412211199925>
+ With : class CustomEliminationAsk
+
+
+Test N: 12
+Variable Elimination standard
+Execution Time : 1519 microseconds
+CD : <0.009409846095970684, 0.007765166855717065, 0.1735806012538216, 0.1432416978880007, 0.018805973904029324, 0.01551901314428294, 0.3460835787461784, 0.28559412211199925>
+ With : class aima.core.probability.bayes.exact.EliminationAsk
+
+
+--------------------------------------------------
+
+
+---------------------------------------
+
+
+------Testing performance of Optimaized VE on the net ---------
+
+Var in topologic order : [Node1, Node3, Node6, Node8, Node10, Node13, Node19, Node21, Node23, Node24, Node30, Node35, Node38, Node39, Node41, Node43, Node48, Node51, Node54, Node57, Node62, Node63, Node65, Node75, Node77, Node79, Node80, Node85, Node87, Node89, Node90, Node93, Node97, Node99, Node88, Node64, Node70, Node81, Node15, Node16, Node17, Node29, Node74, Node82, Node86, Node26, Node32, Node78, Node91, Node92, Node53, Node69, Node46, Node83, Node7, Node28, Node36, Node37, Node98, Node67, Node60, Node5, Node44, Node9, Node27, Node50, Node52, Node22, Node49, Node71, Node12, Node34, Node55, Node76, Node66, Node25, Node4, Node14, Node18, Node59, Node42, Node73, Node95, Node72, Node31, Node40, Node56, Node2, Node94, Node61, Node96, Node20, Node45, Node68, Node33, Node84, Node11, Node0, Node47, Node58]
+Query is : P(Node43,Node78|Node1 = State1,Node99 = State0)
+
+Test N: 1
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 111 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 2
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 88 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 3
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 57 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 4
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 71 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 5
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 59 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 6
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 45 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 7
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 39 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 8
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 87 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 9
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 50 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 10
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 48 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 11
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : Topologic Inverse
+Execution Time : 47 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 12
+Variable Elimination standard
+Execution Time : 66 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class aima.core.probability.bayes.exact.EliminationAsk
+
+
+--------------------------------------------------
+
+Query is : P(Node43,Node78|Node1 = State1,Node99 = State0)
+
+Test N: 1
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 99 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 2
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 95 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 3
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 62 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 4
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 57 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 5
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 39 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 6
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 74 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 7
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 39 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 8
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 35 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 9
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 30 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 10
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 28 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 11
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : Topologic Inverse
+Execution Time : 28 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class CustomEliminationAsk
+
+
+Test N: 12
+Variable Elimination standard
+Execution Time : 37 microseconds
+CD : <0.08684689727999997, 0.03525310271999999, 0.62442990272, 0.25347009728>
+ With : class aima.core.probability.bayes.exact.EliminationAsk
+
+
+--------------------------------------------------
+
+
+------Testing performance of Optimaized VE on the net ---------
+
+Var in topologic order : [Node1, Node19, Node22, Node23, Node29, Node30, Node31, Node35, Node37, Node38, Node39, Node44, Node55, Node56, Node58, Node63, Node66, Node68, Node69, Node74, Node78, Node80, Node81, Node82, Node83, Node84, Node85, Node86, Node87, Node88, Node93, Node99, Node102, Node103, Node108, Node109, Node112, Node123, Node130, Node139, Node141, Node146, Node151, Node153, Node158, Node159, Node163, Node165, Node167, Node169, Node172, Node177, Node178, Node182, Node184, Node185, Node186, Node187, Node189, Node190, Node193, Node195, Node199, Node97, Node64, Node67, Node9, Node114, Node8, Node101, Node90, Node32, Node94, Node47, Node140, Node180, Node171, Node152, Node50, Node104, Node92, Node51, Node149, Node43, Node46, Node162, Node181, Node142, Node120, Node119, Node147, Node127, Node138, Node4, Node18, Node118, Node98, Node134, Node79, Node48, Node137, Node117, Node77, Node40, Node33, Node34, Node105, Node73, Node71, Node89, Node157, Node57, Node54, Node75, Node28, Node107, Node27, Node49, Node6, Node160, Node41, Node128, Node95, Node150, Node183, Node12, Node72, Node124, Node191, Node36, Node179, Node42, Node132, Node129, Node17, Node20, Node100, Node131, Node154, Node188, Node62, Node126, Node96, Node155, Node110, Node196, Node65, Node156, Node70, Node192, Node25, Node170, Node145, Node164, Node197, Node166, Node7, Node144, Node174, Node14, Node60, Node176, Node3, Node24, Node122, Node45, Node198, Node148, Node91, Node53, Node173, Node194, Node13, Node26, Node133, Node16, Node10, Node113, Node61, Node161, Node175, Node121, Node116, Node136, Node2, Node52, Node11, Node76, Node15, Node143, Node168, Node0, Node125, Node135, Node21, Node59, Node111, Node106, Node115, Node5]
+Query is : P(Node80|Node1 = State1)
+
+Test N: 1
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 113 microseconds
+CD : <0.015, 0.985>
+ With : class CustomEliminationAsk
+
+
+Test N: 2
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 44 microseconds
+CD : <0.015, 0.985>
+ With : class CustomEliminationAsk
+
+
+Test N: 3
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 74 microseconds
+CD : <0.015, 0.985>
+ With : class CustomEliminationAsk
+
+
+Test N: 4
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 39 microseconds
+CD : <0.015, 0.985>
+ With : class CustomEliminationAsk
+
+
+Test N: 5
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 21 microseconds
+CD : <0.015, 0.985>
+ With : class CustomEliminationAsk
+
+
+Test N: 6
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 18 microseconds
+CD : <0.015, 0.985>
+ With : class CustomEliminationAsk
+
+
+Test N: 7
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 19 microseconds
+CD : <0.015, 0.985>
+ With : class CustomEliminationAsk
+
+
+Test N: 8
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 20 microseconds
+CD : <0.015, 0.985>
+ With : class CustomEliminationAsk
+
+
+Test N: 9
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 14 microseconds
+CD : <0.015, 0.985>
+ With : class CustomEliminationAsk
+
+
+Test N: 10
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 13 microseconds
+CD : <0.015, 0.985>
+ With : class CustomEliminationAsk
+
+
+Test N: 11
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : Topologic Inverse
+Execution Time : 14 microseconds
+CD : <0.015, 0.985>
+ With : class CustomEliminationAsk
+
+
+Test N: 12
+Variable Elimination standard
+Execution Time : 20 microseconds
+CD : <0.015, 0.985>
+ With : class aima.core.probability.bayes.exact.EliminationAsk
+
+
+--------------------------------------------------
+
+Query is : P(Node30,Node80|Node1 = State1,Node10 = State0)
+
+Test N: 1
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 163 microseconds
+CD : <0.011194500000000003, 0.7351055000000001, 0.0038055000000000007, 0.24989450000000002>
+ With : class CustomEliminationAsk
+
+
+Test N: 2
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 86 microseconds
+CD : <0.011194500000000003, 0.7351055000000001, 0.0038055000000000007, 0.24989450000000002>
+ With : class CustomEliminationAsk
+
+
+Test N: 3
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 60 microseconds
+CD : <0.011194500000000003, 0.7351055000000001, 0.0038055000000000007, 0.24989450000000002>
+ With : class CustomEliminationAsk
+
+
+Test N: 4
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 57 microseconds
+CD : <0.011194500000000003, 0.7351055000000001, 0.0038055000000000007, 0.24989450000000002>
+ With : class CustomEliminationAsk
+
+
+Test N: 5
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 39 microseconds
+CD : <0.011194500000000003, 0.7351055000000001, 0.0038055000000000007, 0.24989450000000002>
+ With : class CustomEliminationAsk
+
+
+Test N: 6
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 55 microseconds
+CD : <0.011194500000000003, 0.7351055000000001, 0.0038055000000000007, 0.24989450000000002>
+ With : class CustomEliminationAsk
+
+
+Test N: 7
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 42 microseconds
+CD : <0.011194500000000003, 0.7351055000000001, 0.0038055000000000007, 0.24989450000000002>
+ With : class CustomEliminationAsk
+
+
+Test N: 8
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 33 microseconds
+CD : <0.011194500000000003, 0.7351055000000001, 0.0038055000000000007, 0.24989450000000002>
+ With : class CustomEliminationAsk
+
+
+Test N: 9
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 28 microseconds
+CD : <0.011194500000000003, 0.7351055000000001, 0.0038055000000000007, 0.24989450000000002>
+ With : class CustomEliminationAsk
+
+
+Test N: 10
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 28 microseconds
+CD : <0.011194500000000003, 0.7351055000000001, 0.0038055000000000007, 0.24989450000000002>
+ With : class CustomEliminationAsk
+
+
+Test N: 11
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : Topologic Inverse
+Execution Time : 32 microseconds
+CD : <0.011194500000000003, 0.7351055000000001, 0.0038055000000000007, 0.24989450000000002>
+ With : class CustomEliminationAsk
+
+
+Test N: 12
+Variable Elimination standard
+Execution Time : 34 microseconds
+CD : <0.011194500000000003, 0.7351055000000001, 0.0038055000000000007, 0.24989450000000002>
+ With : class aima.core.probability.bayes.exact.EliminationAsk
+
+
+--------------------------------------------------
+
+Query is : P(Node1,Node10|Node80 = State1,Node30 = State0)
+
+Test N: 1
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 124 microseconds
+CD : <0.08327748, 0.08832251999999999, 0.40202252, 0.42637748000000003>
+ With : class CustomEliminationAsk
+
+
+Test N: 2
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 50 microseconds
+CD : <0.08327748, 0.08832251999999999, 0.40202252, 0.42637748000000003>
+ With : class CustomEliminationAsk
+
+
+Test N: 3
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 44 microseconds
+CD : <0.08327748, 0.08832251999999999, 0.40202252, 0.42637748000000003>
+ With : class CustomEliminationAsk
+
+
+Test N: 4
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 43 microseconds
+CD : <0.08327748, 0.08832251999999999, 0.40202252, 0.42637748000000003>
+ With : class CustomEliminationAsk
+
+
+Test N: 5
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 31 microseconds
+CD : <0.08327748, 0.08832251999999999, 0.40202252, 0.42637748000000003>
+ With : class CustomEliminationAsk
+
+
+Test N: 6
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 27 microseconds
+CD : <0.08327748, 0.08832251999999999, 0.40202252, 0.42637748000000003>
+ With : class CustomEliminationAsk
+
+
+Test N: 7
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 26 microseconds
+CD : <0.08327748, 0.08832251999999999, 0.40202252, 0.42637748000000003>
+ With : class CustomEliminationAsk
+
+
+Test N: 8
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 25 microseconds
+CD : <0.08327748, 0.08832251999999999, 0.40202252, 0.42637748000000003>
+ With : class CustomEliminationAsk
+
+
+Test N: 9
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 24 microseconds
+CD : <0.08327748, 0.08832251999999999, 0.40202252, 0.42637748000000003>
+ With : class CustomEliminationAsk
+
+
+Test N: 10
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 20 microseconds
+CD : <0.08327748, 0.08832251999999999, 0.40202252, 0.42637748000000003>
+ With : class CustomEliminationAsk
+
+
+Test N: 11
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : Topologic Inverse
+Execution Time : 34 microseconds
+CD : <0.08327748, 0.08832251999999999, 0.40202252, 0.42637748000000003>
+ With : class CustomEliminationAsk
+
+
+Test N: 12
+Variable Elimination standard
+Execution Time : 51 microseconds
+CD : <0.08327748, 0.08832251999999999, 0.40202252, 0.42637748000000003>
+ With : class aima.core.probability.bayes.exact.EliminationAsk
+
+
+--------------------------------------------------
+
+
+------Testing performance of Optimaized VE on the net ---------
+
+
+------The follow Net if a polytree net ---------
+
+Var in topologic order : [Node3, Node10, Node6, Node12, Node0, Node1, Node4, Node16, Node11, Node7, Node14, Node15, Node9, Node13, Node2, Node19, Node5, Node18, Node17, Node8]
+Query is : P(Node3|Node1 = State1)
+
+Test N: 1
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 869149 microseconds
+CD : <0.650036541858025, 0.3499634581419751>
+ With : class CustomEliminationAsk
+
+
+Test N: 2
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 827450 microseconds
+CD : <0.650036541858025, 0.3499634581419751>
+ With : class CustomEliminationAsk
+
+
+Test N: 3
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 935176 microseconds
+CD : <0.650036541858025, 0.3499634581419751>
+ With : class CustomEliminationAsk
+
+
+Test N: 4
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 875105 microseconds
+CD : <0.650036541858025, 0.3499634581419751>
+ With : class CustomEliminationAsk
+
+
+Test N: 5
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 1204056 microseconds
+CD : <0.650036541858025, 0.3499634581419751>
+ With : class CustomEliminationAsk
+
+
+Test N: 6
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 1214175 microseconds
+CD : <0.650036541858025, 0.3499634581419751>
+ With : class CustomEliminationAsk
+
+
+Test N: 7
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 1201110 microseconds
+CD : <0.650036541858025, 0.3499634581419751>
+ With : class CustomEliminationAsk
+
+
+Test N: 8
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 1196824 microseconds
+CD : <0.650036541858025, 0.3499634581419751>
+ With : class CustomEliminationAsk
+
+
+Test N: 9
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 27821 microseconds
+CD : <0.6500365418580248, 0.3499634581419751>
+ With : class CustomEliminationAsk
+
+
+Test N: 10
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 27846 microseconds
+CD : <0.6500365418580248, 0.3499634581419751>
+ With : class CustomEliminationAsk
+
+
+Test N: 11
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : Topologic Inverse
+Execution Time : 28046 microseconds
+CD : <0.6500365418580248, 0.3499634581419751>
+ With : class CustomEliminationAsk
+
+
+Test N: 12
+Variable Elimination standard
+Execution Time : 29142 microseconds
+CD : <0.6500365418580248, 0.3499634581419751>
+ With : class aima.core.probability.bayes.exact.EliminationAsk
+
+
+--------------------------------------------------
+
+Query is : P(Node1,Node4|Node3 = State1,Node8 = State0)
+
+Test N: 1
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 201167 microseconds
+CD : <0.18420366871862254, 0.26398005941374225, 0.20199284303384518, 0.34982342883379003>
+ With : class CustomEliminationAsk
+
+
+Test N: 2
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 203885 microseconds
+CD : <0.18420366871862254, 0.26398005941374225, 0.20199284303384518, 0.34982342883379003>
+ With : class CustomEliminationAsk
+
+
+Test N: 3
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinFillOrder
+Execution Time : 197466 microseconds
+CD : <0.18420366871862254, 0.26398005941374225, 0.20199284303384518, 0.34982342883379003>
+ With : class CustomEliminationAsk
+
+
+Test N: 4
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinFillOrder
+Execution Time : 199159 microseconds
+CD : <0.18420366871862254, 0.26398005941374225, 0.20199284303384518, 0.34982342883379003>
+ With : class CustomEliminationAsk
+
+
+Test N: 5
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 402076 microseconds
+CD : <0.18420366871862257, 0.2639800594137423, 0.20199284303384515, 0.34982342883379003>
+ With : class CustomEliminationAsk
+
+
+Test N: 6
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 408033 microseconds
+CD : <0.18420366871862257, 0.2639800594137423, 0.20199284303384515, 0.34982342883379003>
+ With : class CustomEliminationAsk
+
+
+Test N: 7
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : MinDegreeOrder
+Execution Time : 406882 microseconds
+CD : <0.18420366871862257, 0.2639800594137423, 0.20199284303384515, 0.34982342883379003>
+ With : class CustomEliminationAsk
+
+
+Test N: 8
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : false	Ordinamento : MinDegreeOrder
+Execution Time : 399542 microseconds
+CD : <0.18420366871862257, 0.2639800594137423, 0.20199284303384515, 0.34982342883379003>
+ With : class CustomEliminationAsk
+
+
+Test N: 9
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 13187 microseconds
+CD : <0.18420366871862254, 0.2639800594137423, 0.20199284303384515, 0.3498234288337901>
+ With : class CustomEliminationAsk
+
+
+Test N: 10
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : false	Pruning Archi : true	Ordinamento : Topologic Inverse
+Execution Time : 12989 microseconds
+CD : <0.18420366871862254, 0.2639800594137423, 0.20199284303384515, 0.3498234288337901>
+ With : class CustomEliminationAsk
+
+
+Test N: 11
+Algoritmo eseguito con le seguenti ottimizzazioni :
+	 Pruning Nodi : true	Pruning Archi : false	Ordinamento : Topologic Inverse
+Execution Time : 13228 microseconds
+CD : <0.18420366871862254, 0.2639800594137423, 0.20199284303384515, 0.3498234288337901>
+ With : class CustomEliminationAsk
+
+
+Test N: 12
+Variable Elimination standard
+Execution Time : 13287 microseconds
+CD : <0.18420366871862254, 0.2639800594137423, 0.20199284303384515, 0.3498234288337901>
+ With : class aima.core.probability.bayes.exact.EliminationAsk
+
+
+--------------------------------------------------
+
+
+Process finished with exit code 0
