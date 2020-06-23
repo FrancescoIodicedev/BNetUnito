@@ -124,16 +124,6 @@ public class TestDBN {
         }
     }
 
-    private static void initProposition(int numPredizioni, int numVariabiliEvidenza) {
-        for (int i = 0; i < numPredizioni; i++) {
-            Random r = new Random(System.currentTimeMillis() * i);
-            for (int j = 0; j < numVariabiliEvidenza; j++) {
-                int value = r.nextDouble() >= 0.5 ? 1 : 0;
-                apsTest[i][j] = new AssignmentProposition(ExampleRV.UMBREALLA_t_RV, value == 0 ? Boolean.FALSE : Boolean.TRUE);
-            }
-        }
-    }
-
 
     private static void printSamples(AssignmentProposition[][] S, int n) {
         HashMap<String, Integer> hm = new HashMap<String, Integer>();
