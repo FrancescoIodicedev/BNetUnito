@@ -20,20 +20,20 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 
-public class TestPerformanceCVE {
+public class TestPruningVE {
 
     public static void main(String[] args) {
         //Chain-net
-        //testChainNet();
+        testChainNet();
 
         //Multiconnected-netowork
         testOnMultiNetwork20nodes();
 
         //Singly Connected Net
-        //testOnNetwork20nodes();
-        //testOnNetwork60nodes();
-        //testOnNetwork100nodes();
-        //testOnNetwork200nodes();
+        testOnNetwork20nodes();
+        testOnNetwork60nodes();
+        testOnNetwork100nodes();
+        testOnNetwork200nodes();
 
 
     }
@@ -149,29 +149,6 @@ public class TestPerformanceCVE {
             makeInference(inference, qrv2, ap2, polyNet, index);
             index++;
         }
-
-
-        /*index = 0;
-        for (CustomEliminationAsk inference: allbi) {
-            polyNet = constructSinglyBigNet1();
-            HashMap<String, RandomVariable> rvsmap = new HashMap<>();
-            for (RandomVariable randv : polyNet.getVariablesInTopologicalOrder()) {
-                rvsmap.put(randv.getName(), randv);
-            }
-            //P(Node2, Node70, Node50 | Node20 = State1, Node50 = State0, Node90 = State0 )
-            AssignmentProposition[] ap3 = new AssignmentProposition[3];
-            ap3[0] = new AssignmentProposition(rvsmap.get("Node20"), "State1");
-            ap3[1] = new AssignmentProposition(rvsmap.get("Node50"), "State0");
-            ap3[2] = new AssignmentProposition(rvsmap.get("Node50"), "State0");
-            RandomVariable[] qrv3 = new RandomVariable[3];
-            qrv3[0] = rvsmap.get("Node2");
-            qrv3[1] = rvsmap.get("Node70");
-            qrv3[2] = rvsmap.get("Node60");
-
-            printQuery(qrv3, ap3);
-            makeInference(inference, qrv3, ap3, polyNet, index);
-            index++;
-        }*/
     }
 
     private static void testChainNet() {
