@@ -34,10 +34,9 @@ public class TestRollupDBN {
         makeRandomPropositions(dbn, values);
 
         Instant t0 = Instant.now();
-        for (int i = 0; i < numPredizioni - 2; i++) {
-            //System.out.println("Time " + (i + 1));
+        for (int i = 0; i < numPredizioni - 1; i++)
             dbn.forward(aps[i]);
-        }
+
         Instant t1 = Instant.now();
         List<Factor> stateDistribution = dbn.forward(aps[numPredizioni-1]);
         Instant t2 = Instant.now();
@@ -45,9 +44,9 @@ public class TestRollupDBN {
         System.out.println("Inferenza al tempo " + numPredizioni);
         System.out.println(String.format("Date evidenze (%d): ", aps[numPredizioni-1].length) + Arrays.deepToString(aps[numPredizioni-1]));
 
-        //for (Factor factor: stateDistribution) {
-        //    System.out.println(String.format("Distribution for state variable %s:", factor.getArgumentVariables()) + Arrays.toString(factor.getValues()));
-        //}
+        for (Factor factor: stateDistribution) {
+            System.out.println(String.format("Distribution for state variable %s:", factor.getArgumentVariables()) + Arrays.toString(factor.getValues()));
+        }
 
         Long unrolledTime = Duration.between(t0, t2).toMillis();
         Long rollupTime = Duration.between(t1, t2).toMillis();
@@ -68,7 +67,7 @@ public class TestRollupDBN {
         // polyNet_1 -> M20
         // s1 -> S100
         // S2 -> S200
-        String[] networksN = { "resources/net20nodes1.xml", "resources/polyNet_1.xml", "resources/s1.xml", "resources/s2.xml"};
+        String[] networksN = { "resources/polyNet_1.xml", "resources/net20nodes1.xml", "resources/s1.xml", "resources/s2.xml"};
         List<String> networks = new ArrayList<>(Arrays.asList(networksN));
 
         for(String path: networks)
@@ -77,10 +76,13 @@ public class TestRollupDBN {
         networks.add("Umbrella");
         networks.add("WindUmbrella");
 
+        System.out.println("\n------- Rollup su Umbrella");
         rollup(BayesNetFactory.BuildUmbrellaRain(), new Boolean[]{Boolean.FALSE, Boolean.TRUE});
+
+        System.out.println("\n------- Rollup su WindUmbrella");
         rollup(BayesNetFactory.getRainWindNetwork(), new Boolean[]{Boolean.FALSE, Boolean.TRUE});
 
-        System.out.println("ORDERING: " + ordering);
+        System.out.println("\n------- Measured time, ORDERING=" + ordering);
         for (int i = 0; i < unrolledTimes.size(); i++) {
             System.out.println(String.format("%s: %d %d", networks.get(i), unrolledTimes.get(i), rollupTimes.get(i)));
         }
@@ -89,7 +91,7 @@ public class TestRollupDBN {
         System.out.println("-------- ROLLUP TEST ---------");
         test_rollups();
 
-        System.out.println("------- ROLLUP vs APPROX -------");
+        System.out.println("\n------- ROLLUP vs APPROX -------");
         checkApproxResults();
     }
 
@@ -98,20 +100,19 @@ public class TestRollupDBN {
         CustomDBN dbn = BayesNetFactory.BuildUmbrellaRain();
         makeRandomPropositions(dbn, new Boolean[]{Boolean.FALSE, Boolean.TRUE});
 
-        for (int i = 0; i < numPredizioni - 2; i++) {
+        for (int i = 0; i < numPredizioni - 1; i++) {
             AssignmentProposition[][] approx = pf.particleFiltering(aps[i]);
             List<Factor> exact = dbn.forward(aps[i]);
-            System.out.println(String.format("Step %d: given %s -> approx=%s, exact=%s", i, aps[i][0], approx[0][0], exact));
+            System.out.println(String.format("Step %d: given %s -> approx=%s, exact=%s", i+1, aps[i][0], approx[0][0], exact));
         }
 
         AssignmentProposition[][] S = pf.particleFiltering(aps[numPredizioni - 1]);
         List<Factor> stateDistribution = dbn.forward(aps[numPredizioni-1]);
 
-        System.out.println("---------------");
+        System.out.println("Given " + aps[numPredizioni-1][0]);
         System.out.println("-> risultato approssimato: ");
         printSamples(S, numPredizioni);
 
-        System.out.println("---------------");
         System.out.println("-> risultato Esatto: ");
         System.out.println(stateDistribution);
 
