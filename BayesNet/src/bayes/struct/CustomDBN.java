@@ -157,12 +157,13 @@ public class CustomDBN extends EditableBayesianNetwork implements BayesianNetwor
 
     public RandomVariable[] getStateVariables() {
         Set<RandomVariable> qrv = new HashSet<>();
-
         Set<FullCPTNodeEd> roots = this.getRootNodes();
         for (EditableNode root : roots) {
             for (Node child : root.getChildren())
-                qrv.add(child.getRandomVariable());
+                if (X0_to_X1.containsValue(child.getRandomVariable().getName()))
+                    qrv.add(child.getRandomVariable());
         }
+
         return qrv.toArray(RandomVariable[]::new);
     }
 
